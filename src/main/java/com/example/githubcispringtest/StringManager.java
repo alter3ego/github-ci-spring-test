@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 public class StringManager {
     public String getReverseUppercaseString(String string) {
         StringBuilder stringBuilder = new StringBuilder(string.toLowerCase());
-        //text
         return stringBuilder.reverse().toString();
     }
 }
