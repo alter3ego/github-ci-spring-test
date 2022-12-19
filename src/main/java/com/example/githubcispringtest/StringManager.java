@@ -8,6 +8,5 @@ public class StringManager {
         StringBuilder stringBuilder = new StringBuilder(string.toUpperCase());
 
         return stringBuilder.reverse().toString();
-
     }
 }
