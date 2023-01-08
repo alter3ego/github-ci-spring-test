@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  java test:
+  java_test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
