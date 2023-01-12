@@ -8,8 +8,6 @@ on:
 
 jobs:
   java-CI:
-    build:
-
       runs-on: ubuntu-latest
 
       steps:
