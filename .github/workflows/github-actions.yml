@@ -1,7 +1,9 @@
 name: Java CI
+
 on:
   push:
     branches: [ master ]
+
 jobs:
   java_test:
     runs-on: ubuntu-latest
